@@ -1,0 +1,28 @@
+.main{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 2rem;
+    padding: .5rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.cart{
+    height: 2.5rem;
+    margin-top: .8rem;
+    margin-right: 1rem;
+    color: orange;
+    position: relative;
+}
+.cartCount{
+    position: absolute;
+    right: .4rem;
+    top: .2rem;
+    padding: 4px 8px;
+    background-color: yellow;
+    
+    border-radius: 50%;
+}
